@@ -1,17 +1,17 @@
 {
-  "name": "bloc-frontend-project-starter",
+  "name": "Jams - Angular",
   "version": "0.0.2",
-  "description": "Starter project for the Bloc Frontend Web Development",
+  "description": "Jams online music player, refactored using AngularJS",
   "repository": {
     "type": "git",
-    "url": "https://github.com/bloc/bloc-frontend-project-starter"
+    "url": "https://github.com/tabalie/ang-jams"
   },
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
   },
-  "author": "Bloc Inc",
-  "license": "ISC",
+  "author": "Natalie Kueneman",
+  "license": "",
   "dependencies": {
     "hapi": "~7.5.0",
     "path": "^0.4.9"
