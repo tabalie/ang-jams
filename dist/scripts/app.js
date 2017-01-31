@@ -7,7 +7,7 @@
                 requireBase: false
         });
 
-        //to allow ui-view to load template associated with landing and album states
+        //to allow ui-view to load template associated with landing, collection, and album states
         $stateProvider
             .state('landing', {
                 url: '/',
@@ -17,6 +17,11 @@
             .state('album', {
                 url: '/album',
                 templateURL: '/templates/album.html'
+            })
+
+            .state('collection', {
+                url: '/collection',
+                templateURL: '/templates/collection.html'
             });
     }
 
